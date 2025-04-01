@@ -27,3 +27,22 @@ print(c)
 print(d)
 print(e)
 print(f)
+
+#Task
+#1. Write IF ELSE statemant to validate if x is larger than y return true if yes
+
+def result (x , y) :
+  if (x > y):
+    return True
+  return False
+
+print(result(100,200))
+
+
+
+
+
+
+
+
+
