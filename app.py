@@ -38,9 +38,14 @@ def result (x , y) :
 
 print(result(100,200))
 
+#2. Write IF ELSE statemant to validate if x is larger than y and less than b return true if yes
 
+def result (x , y , b) :
+  if (x > y) and (x < b):
+    return True
+  return False
 
-
+print(result(300, 200, 400))
 
 
 
